@@ -1,0 +1,10 @@
+{
+    "name": "project3-deploy",
+    "version": "1.0.0",
+    "scripts": {
+      "heroku-postbuild": "cd client && npm install && npm run build"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
